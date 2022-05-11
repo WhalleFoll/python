@@ -3,7 +3,7 @@
 import  cv2
 from matplotlib import pyplot as plt
 
-image = cv2.imread("pdsu.jpg")
+image = cv2.imread("../图像变换/pdsu.jpg")
 
 #转换颜色通道
 b,g,r=cv2.split(image)
